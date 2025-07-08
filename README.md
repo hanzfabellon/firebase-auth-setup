@@ -5,7 +5,7 @@
 [![Built with: React](https://img.shields.io/badge/Built%20with-React-61DAFB.svg)](https://react.dev/)
 [![Styled with: Shadcn](https://img.shields.io/badge/Styled%20with-shadcn/ui-black.svg)](https://ui.shadcn.com/)
 
-Build a modern, secure web application with user authentication from scratch. This step-by-step guide covers project setup, UI, and secure Firebase integration.
+Build a web application with user authentication through Firebase. This step-by-step guide covers project setup, UI, and Firebase integration.
 
 **[➡️ View the Live Demo](https://hanzfabellon.github.io/sample-auth)**
 
@@ -66,12 +66,12 @@ Follow these instructions to get a copy of the project up and running on your lo
     VITE_FIREBASE_MESSAGING_SENDER_ID="123456789012"
     VITE_FIREBASE_APP_ID="1:123456789012:web:abcdef1234567890"
     ```
-> #### ℹ️ How Your `apiKey` Stays Secure
+> #### ⚠️ How Your `apiKey` Stays Secure
 >
 > While the `apiKey` is visible in your site's deployed code, it's not a secret password. It only identifies your Firebase project. You can further secure it by:
 >
-> 1.  **Firebase Auth Authorized Domains**: In the Firebase Console, you can restrict which domains can use your auth services. You can set that only requests from your deployed site and firebase(e.g., `your-app.vercel.app` and `firebaseapp.com`) will be allowed. You can set this in the firebase console, Authentication on the side bar, Settings, and Authorized Domains.
-> 2.  **Firestore Security Rules**: You must write rules to control who can read or write data. For example: `allow read, write: if request.auth != null;` ensures only logged-in users can access data.
+> 1.  **Firebase Auth Authorized Domains**: In the Firebase Console, you can restrict which domains can use your auth services. You can set that only requests from your deployed site and firebase (e.g., `your-app.vercel.app` and `firebaseapp.com`) will be allowed. You can set this in the firebase console, Authentication on the side bar, Settings, and Authorized Domains.
+> 2.  **Firestore Security Rules**: You can write rules to control who can read or write data. For example: `allow read, write: if request.auth != null;` ensures only logged-in users can access data.
 > 3.  **Google Cloud API Key Restrictions**: You can restrict your API key in the Google Cloud Console to only accept requests from your domain's HTTP referer. This can be located in the sidebar, APIs and Services, then Credentials, then click the three dots, and click edit API key.
 
 5.  **Enable Google Sign-In in Firebase:**

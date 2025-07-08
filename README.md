@@ -11,6 +11,8 @@ Build a web application with user authentication through Firebase. This step-by-
 
 **[➡️ Demo repo](https://github.com/hanzfabellon/sample-auth)**
 
+**[➡️ Guide from scratch](https://github.com/hanzfabellon/sample-auth](https://github.com/hanzfabellon/firebase-auth-setup/blob/main/README-detailed.md)**
+
 ### ✅ Prerequisites
 
 Before you begin, ensure you have the following installed and configured:

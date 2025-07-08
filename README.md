@@ -33,7 +33,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 2.  **Navigate to the project directory:**
     ```bash
     cd firebase-auth-setup
-    cd demo
     ```
 
 3.  **Install the dependencies:**

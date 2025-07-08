@@ -74,7 +74,7 @@ npm install -D @types/node
 
 Now, update `vite.config.ts` to resolve the `@` alias.
 
-```import { defineConfig } from 'vite'
+```typescript import { defineConfig } from 'vite'
 import path from "path"
 import tailwindcss from "@tailwindcss/vite"
 import react from '@vitejs/plugin-react'

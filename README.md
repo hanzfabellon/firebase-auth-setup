@@ -7,7 +7,7 @@ Build a modern, secure web application with user authentication from scratch. Th
 Before you begin, ensure you have the following installed and configured:
 
 *   **Node.js**: `v18` or newer
-*   **npm**: Comes bundled with Node.js
+*   **npm** and **pnpm**: Package managers
 *   **Firebase Project**: A project created in the [Firebase Console](https://console.firebase.google.com/) with the "Authentication" service enabled (and Google provider turned on).
 
 ---

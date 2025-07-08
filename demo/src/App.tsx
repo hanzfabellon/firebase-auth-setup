@@ -28,7 +28,7 @@ function App() {
         </div>
         <footer className="w-full py-6 border-t text-center text-sm text-muted-foreground flex flex-col items-center gap-2">
           <div>
-            the name of the firebase app is <b>simple-idea-board</b>, this will be the URL you will see on the authentication page, don't worry!
+            the name of the firebase app is <b>your-app-name</b>, this will be the URL you will see on the authentication page, don't worry!
           </div>
           <div className="flex items-center gap-2">
             Made by Hanz Fabellon

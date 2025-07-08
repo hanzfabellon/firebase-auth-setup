@@ -1,4 +1,4 @@
-# Guide: React + Vite + Firebase + shadcn/ui
+# Guide: Setting Up Firebase Authentication in a Web App ( React + Vite + Tailwind CSS + Shadcn)
 
 A step-by-step guide to building a modern web application with user authentication.
 

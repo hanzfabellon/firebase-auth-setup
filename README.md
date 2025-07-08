@@ -42,7 +42,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
 
 4.  **Set up your environment variables:**
-    *   Create a new file in the root of the project named `.env.local`. (so it will be demo/.env.local)
+    *   Create a new file in the root of the project named `.env.local`. (so it will be at demo/.env.local)
     *   Copy the contents of the example below into your new file.
     *   Go to your Firebase project settings, find your web app's configuration, and replace the placeholder values with your **actual** Firebase credentials.
 

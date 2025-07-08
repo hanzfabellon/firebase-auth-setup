@@ -272,9 +272,9 @@ Now let's assemble the UI using our new hook and components.
 
 #### a. Create the Header Component
 
-Create a new file at `src/components/Header.tsx`. This component will display either a "Login" button or the user's avatar with a dropdown menu.
+Create a new file at `src/components/header.tsx`. This component will display either a "Login" button or the user's avatar with a dropdown menu.
 
-```tsx:src/components/Header.tsx
+```tsx:src/components/header.tsx
 import { useAuth } from "@/hooks/use-auth";
 import { Button } from "@/components/ui/button";
 import {
@@ -336,7 +336,7 @@ export function Header() {
 Modify `src/App.tsx` to use the `Header` and display a welcome message.
 
 ```tsx:src/App.tsx
-import { Header } from "@/components/Header";
+import { Header } from "@/components/header";
 import { useAuth } from "@/hooks/use-auth";
 
 function App() {

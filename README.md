@@ -19,8 +19,6 @@ Before you begin, ensure you have the following installed and configured:
 *   **npm** and **pnpm**: Package managers
 *   **Firebase Project**: A project created in the [Firebase Console](https://console.firebase.google.com/) with the "Authentication" service enabled (and Google provider turned on).
 
----
-
 ## 🚀 Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.

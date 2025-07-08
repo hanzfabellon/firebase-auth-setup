@@ -1,6 +1,15 @@
 # Guide to Firebase Auth in React (Vite + Tailwind CSS + Shadcn)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Powered by: Firebase](https://img.shields.io/badge/Powered%20by-Firebase-orange.svg)](https://firebase.google.com/)
+[![Built with: React](https://img.shields.io/badge/Built%20with-React-61DAFB.svg)](https://react.dev/)
+[![Styled with: Shadcn](https://img.shields.io/badge/Styled%20with-shadcn/ui-black.svg)](https://ui.shadcn.com/)
+
 Build a modern, secure web application with user authentication from scratch. This step-by-step guide covers project setup, UI, and secure Firebase integration.
+
+**[➡️ View the Live Demo](https://hanzfabellon.github.io/sample-auth)**
+
+**[➡️ Demo repo](https://github.com/hanzfabellon/sample-auth)**
 
 ### ✅ Prerequisites
 
@@ -11,6 +20,70 @@ Before you begin, ensure you have the following installed and configured:
 *   **Firebase Project**: A project created in the [Firebase Console](https://console.firebase.google.com/) with the "Authentication" service enabled (and Google provider turned on).
 
 ---
+
+## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+*   Node.js (v18 or newer)
+*   npm (comes with Node.js)
+*   A Firebase project created in the [Firebase Console](https://console.firebase.google.com/).
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/hanzfabellon/firebase-auth-setup.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd firebase-auth-setup
+    cd demo
+    ```
+
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Set up your environment variables:**
+    *   Create a new file in the root of the project named `.env.local`.
+    *   Copy the contents of the example below into your new file.
+    *   Go to your Firebase project settings, find your web app's configuration, and replace the placeholder values with your **actual** Firebase credentials.
+
+    ```ini:.env.local
+    #
+    # ⚠️ IMPORTANT: Replace these with your own Firebase project keys!
+    #
+    # Get these from your Firebase project console:
+    # Project Settings > General > Your apps > Web app > SDK setup and configuration
+    #
+    VITE_FIREBASE_API_KEY="YOUR_API_KEY"
+    VITE_FIREBASE_AUTH_DOMAIN="your-project-id.firebaseapp.com"
+    VITE_FIREBASE_PROJECT_ID="your-project-id"
+    VITE_FIREBASE_STORAGE_BUCKET="your-storage-bucket"
+    VITE_FIREBASE_MESSAGING_SENDER_ID="123456789012"
+    VITE_FIREBASE_APP_ID="1:123456789012:web:abcdef1234567890"
+    ```
+
+5.  **Enable Google Sign-In in Firebase:**
+    *   Go to your Firebase Console.
+    *   Navigate to **Authentication** > **Sign-in method**.
+    *   Click on **Google** from the list of providers and enable it.
+
+6.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+Your application should now be running on `http://localhost:5173`.
+
+---
+
+# Deeper Guide
 
 ### 1. 🚀 Create Your Vite + React Project
 
@@ -403,7 +476,7 @@ function App() {
         </div>
         <footer className="w-full py-6 border-t text-center text-sm text-muted-foreground flex flex-col items-center gap-2">
           <div>
-            the name of the firebase app is <b>simple-idea-board</b>, this will be the URL you will see on the authentication page, don't worry!
+            the name of the firebase app is <b>your-app-name</b>, this will be the URL you will see on the authentication page, don't worry!
           </div>
           <div className="flex items-center gap-2">
             Made by Hanz Fabellon

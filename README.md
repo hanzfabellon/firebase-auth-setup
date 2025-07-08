@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Powered by: Firebase](https://img.shields.io/badge/Powered%20by-Firebase-orange.svg)](https://firebase.google.com/)
 [![Built with: React](https://img.shields.io/badge/Built%20with-React-61DAFB.svg)](https://react.dev/)
-[![Styled with: Shadcn](https://img.shields.io/badge/Styled%20with-shadcn/ui-black.svg)](https://ui.shadcn.com/)
+[![Styled with: Shadcn](https://img.shields.io/badge/Styled%20with-shadcn-black.svg)](https://ui.shadcn.com/)
 
 Build a web application with user authentication through Firebase. This step-by-step guide covers project setup, UI, and Firebase integration.
 

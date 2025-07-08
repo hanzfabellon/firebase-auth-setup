@@ -256,9 +256,8 @@ export const useAuth = () => {
 Use the `shadcn-ui` CLI to add the components we'll need for our header.
 
 ```bash
-npx shadcn-ui@latest add avatar
-npx shadcn-ui@latest add dropdown-menu
-npx shadcn-ui@latest add button
+pnpm dlx shadcn@latest add avatar
+pnpm dlx shadcn@latest add dropdown-menu
 ```
 
 Then, install `lucide-react` for icons, which these components often depend on.

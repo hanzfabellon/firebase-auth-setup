@@ -5,7 +5,7 @@
 [![Built with: React](https://img.shields.io/badge/Built%20with-React-61DAFB.svg)](https://react.dev/)
 [![Styled with: Shadcn](https://img.shields.io/badge/Styled%20with-shadcn-black.svg)](https://ui.shadcn.com/)
 
-Build a web application with user authentication through Firebase. This step-by-step guide covers project setup, UI, and Firebase integration.
+Build a web application with user authentication through Firebase.
 
 **[➡️ View the Live Demo](https://hanzfabellon.github.io/sample-auth)**
 
@@ -18,7 +18,7 @@ Build a web application with user authentication through Firebase. This step-by-
 Before you begin, ensure you have the following installed and configured:
 
 *   **Node.js**: `v18` or newer
-*   **npm** and **pnpm**: Package managers
+*   **pnpm**: Package managers
 *   **Firebase Project**: A project created in the [Firebase Console](https://console.firebase.google.com/) with the "Authentication" service enabled (and Google provider turned on).
 
 ## 🚀 Getting Started
@@ -39,7 +39,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 3.  **Install the dependencies:**
     ```bash
-    npm install
+    pnpm install
     ```
 
 4.  **Set up your environment variables:**
@@ -76,7 +76,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 6.  **Run the development server:**
     ```bash
-    npm run dev
+    pnpm run dev
     ```
 
 Your application should now be running on `http://localhost:5173`.

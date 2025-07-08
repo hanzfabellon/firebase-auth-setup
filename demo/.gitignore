@@ -1,0 +1,29 @@
+# .gitignore
+
+# Dependencies
+/node_modules
+
+# Build output
+/dist
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite-specific
+.vite/
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

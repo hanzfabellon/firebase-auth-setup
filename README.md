@@ -66,6 +66,13 @@ Follow these instructions to get a copy of the project up and running on your lo
     VITE_FIREBASE_MESSAGING_SENDER_ID="123456789012"
     VITE_FIREBASE_APP_ID="1:123456789012:web:abcdef1234567890"
     ```
+> #### ℹ️ How Your `apiKey` Stays Secure
+>
+> While the `apiKey` is visible in your site's deployed code, it's not a secret password. It only identifies your Firebase project. You can further secure it by:
+>
+> 1.  **Firebase Auth Authorized Domains**: In the Firebase Console, you can restrict which domains can use your auth services. You can set that only requests from your deployed site and firebase(e.g., `your-app.vercel.app` and `firebaseapp.com`) will be allowed. You can set this in the firebase console, Authentication on the side bar, Settings, and Authorized Domains.
+> 2.  **Firestore Security Rules**: You must write rules to control who can read or write data. For example: `allow read, write: if request.auth != null;` ensures only logged-in users can access data.
+> 3.  **Google Cloud API Key Restrictions**: You can restrict your API key in the Google Cloud Console to only accept requests from your domain's HTTP referer. This can be located in the sidebar, APIs and Services, then Credentials, then click the three dots, and click edit API key.
 
 5.  **Enable Google Sign-In in Firebase:**
     *   Go to your Firebase Console.
